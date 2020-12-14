@@ -14,10 +14,14 @@ En la actualidad existen diversos tipos de criptografía:
 Solo utiliza una clave para cifrar y descifrar. Ésta debe ser previamente conocida por todas las partes involucradas. 
 
 Podemos imaginar este sistema como algo similar a la seguridad de nuestra casa. Tenemos una llave para cerrar la puerta y estamos tranquilos que solo las personas con esa misma llave la van a poder abrir. Tenemos la ventaja que podemos compartirla con cualquier persona de confianza, pero también existe la posibilidad de que se extravíe, o de que alguien la robe. Esa es la principal desventaja de la criptografía simétrica.
+Format: ![Alt Text](https://nic.ar/sites/default/files/inline-images/Criptografia-Simetrica-Nota.png)
 
 **Criptografía asimétrica o criptografía de clave pública**
 
 Esta metodología tiene como base la utilización de dos claves diferentes, pero vinculadas matemáticamente entre sí, utilizadas para cifrar y descifrar el mensaje. Una de ellas debe ser pública, propia de cada participante pero puesta a disposición de cualquier usuario, sea participante en el intercambio de  información o no. La otra es una clave privada, también propia de cada uno de ellos, pero que debe permanecer en secreto y nunca ser revelada. Al requerir que cada usuario posea un par de claves, y que una de ellas no se comunique nunca a nadie, todo el proceso se vuelve más seguro.
+
+Format: ![Alt Text](https://nic.ar/sites/default/files/inline-images/Criptografia-Firma-Nota.png)
+
 
 <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 <df-messenger
